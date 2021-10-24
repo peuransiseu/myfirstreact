@@ -17,11 +17,20 @@ class Button extends React.Component{
         )
     }
 
+    decreaseCounter = () =>{
+        this.setState(
+            {
+                count : this.state.count - 1
+            }
+        )
+    }
+
     render(){
         return(
         <div>
-            <button onClick = {this.addCounter}>Click me Daddy! </button>
+            <button onClick = {this.addCounter}>Click to Increase!</button>
             <p>counts = {this.state.count}</p>
+            <button onClick = {this.decreaseCounter}>Click to Decrease!</button>
         </div>
         )
     }

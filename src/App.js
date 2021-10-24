@@ -12,14 +12,13 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-        Edit <code>src/App.js</code> and save to reload. 
-        </p>
-        <p>MAMA HACKER NAQ T_T</p>
+        Edit <code>src/App.js</code> and save to reload. auq nga
+        </p>       
         <Greet name= "Francis" alyas="pogi"/>
           <Message/>
-        <Greet name= "Angelo" alyas="cute"/>
-          <Button/>
         <Greet name= "Fundal" alyas="qtie"/>
+          <Button/>      
+        <h1>MAMA HACKER NAQ T_T</h1>
         <a
           className="App-link"
           href="https://reactjs.org"
