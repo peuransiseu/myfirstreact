@@ -71,8 +71,8 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-.Button.counter{
-  padding: 5px;
+.counter{
+  margin-top: 10px;
 }
 .button2 {
   display: inline-block;

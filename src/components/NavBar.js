@@ -9,6 +9,7 @@ const NavBar = () => {
                             <a class="nav-link" href="/">Home</a>
                             <a class="nav-link" href="/employees">Employees</a>
                             <a class="nav-link" href="/add">Add Employee</a>
+                            <a class="nav-link" href="/about">About the Creator</a>
                             <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                         </div>
                     </div>

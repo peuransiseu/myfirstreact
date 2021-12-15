@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom"
+import About from "./About"
 import AddEmployee from "./AddEmployee"
 import Employee from "./Employee"
 import Home from "./Home"
@@ -12,6 +13,7 @@ const Router = () =>{
                     <Route exact path="/" element={<Home/>}/>
                     <Route exact path="/employees" element={<Employee/>}/>
                     <Route exact path="/add" element={<AddEmployee/>}/>
+                    <Route exact path="/about" element={<About/>}/>
                     <Route exact path="/edit/:employeeId" element={<AddEmployee/>}/>
                     <Route exact path="*" element={<PageNotFound/>}/>
                 </Routes>

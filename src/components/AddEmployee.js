@@ -18,7 +18,7 @@ const AddEmployee = () => {
             employeeServices.putEmployee(employee) //promise
             .then(
                 response =>{
-                    console.log("Added New Employee :>", response.data)
+                    console.log("Updated Employee :>", response.data)
                     navigate("/employees")
                 }
             )
@@ -63,7 +63,7 @@ useEffect(
                 }
             )
         }
-    },[employeeId])
+    },[])
 
 
     return (
@@ -76,6 +76,7 @@ useEffect(
                     type="text" 
                     className="form-control" 
                     id="main"
+                    value={main}
                     placeholder="Add Employee Name" 
                     onChange={
                         (e) =>{
@@ -90,6 +91,7 @@ useEffect(
                     type="text" 
                     className="form-control" 
                     id="location"
+                    value={location}
                     placeholder="Add Employee Location"
                     onChange={
                         (e) =>{
@@ -104,6 +106,7 @@ useEffect(
                     type="text" 
                     className="form-control" 
                     id="department"
+                    value={department}
                     placeholder="Add Employee Department" 
                     onChange={
                         (e) =>{

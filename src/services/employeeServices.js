@@ -11,10 +11,10 @@ const putEmployee = (data) =>{
     return httpclient.put('/employees', data)
 }
 const getEmployee = (employeeId) => {
-    return httpclient.get('/employees/${employeeId}')
+    return httpclient.get(`/employees/${employeeId}`)
 }
 
 const deleteEmployee = (employeeId) =>{
-    return httpclient.delete('/employees/${employeeId}')
+    return httpclient.delete(`/employees/${employeeId}`)
 }
 export default {getEmployees, postEmployee, putEmployee, getEmployee, deleteEmployee}

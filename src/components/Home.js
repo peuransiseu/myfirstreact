@@ -17,12 +17,16 @@ function Home() {
             <img src="https://cryptologos.cc/logos/smooth-love-potion-slp-logo.png" alt="slp" />
             <strong>SLP TO THE MOON!</strong>
             <img src="https://cryptologos.cc/logos/smooth-love-potion-slp-logo.png" alt="slp2" />
-          </h1>
+          </h1><br/>
         </div>
-
+        <div>
+          <img src="https://c.tenor.com/LEGm7yICSIkAAAAC/axie-axs.gif"/>
+        </div>
         <p>{Hello}</p>
         <br/>
-        <Greet name="Francis" alias="pogi" />
+        <div>
+          <h2>👋Hello Stranger, welcome to my Page👋</h2>
+        </div>
         <br/>
         <Message />
         <div class="button">

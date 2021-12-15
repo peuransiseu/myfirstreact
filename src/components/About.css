@@ -1,0 +1,9 @@
+.About.container2{
+    background-image: url("https://wallpapercave.com/wp/wp2757874.gif");
+    border: solid black;
+}
+
+.container2 img {
+    height: 50px;
+    width: 50px;
+}
