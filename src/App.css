@@ -14,6 +14,7 @@
 }
 
 .App-header {
+  background-image: url("https://wallpapercave.com/wp/wp2757874.gif");
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -23,9 +24,75 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.header img { 
+  width: 50px;
+  height: 50px;
+}
 
+.header h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
+.header h1{ 
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
 .App-link {
   color: #61dafb;
+}
+
+.App.Button{
+  border: solid #61dafb;
+
+}
+.button1 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button1:hover {background-color: #3e8e41}
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+.Button.counter{
+  padding: 5px;
+}
+.button2 {
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 20px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+.button2:hover {background-color: #3e8e41}
+.button2:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
 }
 
 @keyframes App-logo-spin {
@@ -35,4 +102,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+.bimby{
+  width: 350px;
+  height: 300px;
+}
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(20, 24, 26);
+  color: rgb(245, 245, 245);
 }

@@ -1,7 +1,7 @@
 
 
 const Message = () =>{
-    return <p>this is children props.</p>
+    return <p>click mo to kung magkano gusto mong price ng slp</p>
 }
 
 export default Message;

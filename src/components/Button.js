@@ -28,12 +28,13 @@ class Button extends React.Component{
     render(){
         return(
         <div>
-            <button onClick = {this.addCounter}>Click to Increase!</button>
-            <p>counts = {this.state.count}</p>
-            <button onClick = {this.decreaseCounter}>Click to Decrease!</button>
-        </div>
+            <button className="button1" onClick = {this.addCounter}>Click to Increase!</button>
+            <p className="counter">Price = ₱ {this.state.count}.00</p>
+            <button className="button2" onClick = {this.decreaseCounter}>Click to Decrease!</button> 
+        </div>           
+       
         )
     }
 }
 
-export default Button
+export default Button;
